@@ -1,6 +1,5 @@
 <?php
 header('Content-type: text/plain');
-//Hasn't been tested but should be working
 
 $apikey = '';
 $platform = 'PC';
