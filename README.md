@@ -33,9 +33,9 @@ The **global** field contains most important data about the user. You'll find hi
 The **realtime** field provided current data about the user, such as the selected Legend, his lobbyState (open or invite), if the player is online, if he's in a game and if you can join him (if you can't, he's party is full or his lobbyState is set to 'invite').
 
 The **legends** field contains all data related to legends, split in 2 main data arrays:
-	**selected** -> data about currently selected legend.
+   **selected** -> data about currently selected legend.
 
-	**all** -> player's data history, with updated ones and older ones. Each time the player is updated, any new data will be added and if already present, it will be updated.
+   **all** -> player's data history, with updated ones and older ones. Each time the player is updated, any new data will be added and if already present, it will be updated.
 
 Finally, you'll get total stats across all legends. The kd field will be -1 unless the API finds a 'kills' field and 'games_played' field.
 
