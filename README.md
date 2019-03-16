@@ -26,7 +26,73 @@ If the API returns with a httpcode other than 200, there was an error while proc
 
 If code 200 is returned, you'll find the following JSON content:
 
-    {"global":{"name":"HeyImLIFELINE","uid":1000575543540,"platform":"PC","level":65,"toNextLevelPercent":79,"internalUpdateCount":1180},"realtime":{"lobbyState":"open","isOnline":0,"isInGame":0,"canJoin":0,"selectedLegend":"Pathfinder"},"legends":{"selected":{"Pathfinder":{"pistol_kills":false,"kills":"9","beacons_scanned":false}},"all":{"Bloodhound":{"top_3":"12"},"Lifeline":{"kills":"770","damage":"198139","dropped_items_for_squadmates":"202"},"Gibraltar":{"kills":"0"},"Mirage":{"kills":"13"},"Pathfinder":{"kills":"9","pistol_kills":"0","beacons_scanned":"0"}}}}
+  {
+    "global": {
+        "name": "HeyImLIFELINE",
+        "uid": 1000575543540,
+        "platform": "PC",
+        "level": 65,
+        "toNextLevelPercent": 79,
+        "internalUpdateCount": 1189
+    },
+    "realtime": {
+        "lobbyState": "open",
+        "isOnline": 1,
+        "isInGame": 0,
+        "canJoin": 1,
+        "selectedLegend": "Mirage"
+    },
+    "legends": {
+        "selected": {
+            "Mirage": {
+                "kills": "13",
+                "empty": 0
+            }
+        },
+        "all": {
+            "Bangalore": {
+                "kills": "11",
+                "creeping_barrage_damage": "180"
+            },
+            "Bloodhound": {
+                "kills": "75",
+                "top_3": "12"
+            },
+            "Lifeline": {
+                "kills": "770",
+                "damage": "198139",
+                "dropped_items_for_squadmates": "202"
+            },
+            "Caustic": {
+                "kills": "4"
+            },
+            "Gibraltar": {
+                "kills": "0"
+            },
+            "Mirage": {
+                "kills": "13"
+            },
+            "Pathfinder": {
+                "kills": "9",
+                "pistol_kills": "0",
+                "beacons_scanned": "0"
+            },
+            "Wraith": {
+                "kills": "19"
+            }
+        }
+    },
+    "total": {
+        "kills": 901,
+        "creeping_barrage_damage": 180,
+        "top_3": 12,
+        "damage": 198139,
+        "dropped_items_for_squadmates": 202,
+        "pistol_kills": 0,
+        "beacons_scanned": 0,
+        "kd": -1
+    }
+}
 
 The **global** field contains most important data about the user. You'll find his name, his UID, his platform, level, level progress and how many times he updated his character ingame.
 
