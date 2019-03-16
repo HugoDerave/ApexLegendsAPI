@@ -26,80 +26,16 @@ If the API returns with a httpcode other than 200, there was an error while proc
 
 If code 200 is returned, you'll find the following JSON content:
 
-  {
-    "global": {
-        "name": "HeyImLIFELINE",
-        "uid": 1000575543540,
-        "platform": "PC",
-        "level": 65,
-        "toNextLevelPercent": 79,
-        "internalUpdateCount": 1189
-    },
-    "realtime": {
-        "lobbyState": "open",
-        "isOnline": 1,
-        "isInGame": 0,
-        "canJoin": 1,
-        "selectedLegend": "Mirage"
-    },
-    "legends": {
-        "selected": {
-            "Mirage": {
-                "kills": "13",
-                "empty": 0
-            }
-        },
-        "all": {
-            "Bangalore": {
-                "kills": "11",
-                "creeping_barrage_damage": "180"
-            },
-            "Bloodhound": {
-                "kills": "75",
-                "top_3": "12"
-            },
-            "Lifeline": {
-                "kills": "770",
-                "damage": "198139",
-                "dropped_items_for_squadmates": "202"
-            },
-            "Caustic": {
-                "kills": "4"
-            },
-            "Gibraltar": {
-                "kills": "0"
-            },
-            "Mirage": {
-                "kills": "13"
-            },
-            "Pathfinder": {
-                "kills": "9",
-                "pistol_kills": "0",
-                "beacons_scanned": "0"
-            },
-            "Wraith": {
-                "kills": "19"
-            }
-        }
-    },
-    "total": {
-        "kills": 901,
-        "creeping_barrage_damage": 180,
-        "top_3": 12,
-        "damage": 198139,
-        "dropped_items_for_squadmates": 202,
-        "pistol_kills": 0,
-        "beacons_scanned": 0,
-        "kd": -1
-    }
-}
+    {"global":{"name":"HeyImLIFELINE","uid":1000575543540,"platform":"PC","level":65,"toNextLevelPercent":79,"internalUpdateCount":1189},"realtime":{"lobbyState":"open","isOnline":1,"isInGame":0,"canJoin":1,"selectedLegend":"Mirage"},"legends":{"selected":{"Mirage":{"kills":"13","empty":0}},"all":{"Bangalore":{"kills":"11","creeping_barrage_damage":"180"},"Bloodhound":{"kills":"75","top_3":"12"},"Lifeline":{"kills":"770","damage":"198139","dropped_items_for_squadmates":"202"},"Caustic":{"kills":"4"},"Gibraltar":{"kills":"0"},"Mirage":{"kills":"13"},"Pathfinder":{"kills":"9","pistol_kills":"0","beacons_scanned":"0"},"Wraith":{"kills":"19"}}},"total":{"kills":901,"creeping_barrage_damage":180,"top_3":12,"damage":198139,"dropped_items_for_squadmates":202,"pistol_kills":0,"beacons_scanned":0,"kd":-1}}
 
 The **global** field contains most important data about the user. You'll find his name, his UID, his platform, level, level progress and how many times he updated his character ingame.
 
 The **realtime** field provided current data about the user, such as the selected Legend, his lobbyState (open or invite), if the player is online, if he's in a game and if you can join him (if you can't, he's party is full or his lobbyState is set to 'invite').
 
 The **legends** field contains all data related to legends, split in 2 main data arrays:
-	**selected** -> data about currently selected legend
+	**selected** -> data about currently selected legend.
+
 	**all** -> player's data history, with updated ones and older ones. Each time the player is updated, any new data will be added and if already present, it will be updated.
 
+Finally, you'll get total stats across all legends. The kd field will be -1 unless the API finds a 'kills' field and 'games_played' field.
 
