@@ -5,6 +5,8 @@
 We're providing a free API without any rate limit, that can be used for any project. However, this may change in the near future according to our finance & server load. Sorry for the average english level, i'm french :-)
 Any question? Go to our discord @ [https://discord.gg/TZ4Y9EB](https://discord.gg/TZ4Y9EB "https://discord.gg/TZ4Y9EB").
 
+Please also note that due to current Respawn limitations, the API will only return the banners displayed data in the "current" field. Data displayed in the "all" field comes from previous requests, that are saved.
+
 # Get an API Key
 
 We require every user to get an API Key for "control" reason and stats. To get an API key, go to http://api.apexlegendsstatus.com/getkey. We'll ask you your mail address and short project description. Please note that providing a wrong mail addresse will most likely get your key suspended.
