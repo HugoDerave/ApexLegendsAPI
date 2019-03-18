@@ -1,3 +1,5 @@
+19th March: API may be unstable or down after the beginning of Season 1. I don't know if they will change something networking related etc, so we'll see! Please allow me some time to add Octanes trackers and the 18 new ones. :-)
+
 # Unofficial Apex Legends API
 
 /!\ This API is still in a development state, and may not be stable at the moment. Please report any issue on our discord. It also pretty long to answer atm (1s to 2s) but this will be reduced soon.
