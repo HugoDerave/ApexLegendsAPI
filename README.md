@@ -1,4 +1,5 @@
-19th March: API may be unstable or down after the beginning of Season 1. I don't know if they will change something networking related etc, so we'll see! Please allow me some time to add Octanes trackers and the 18 new ones. :-)
+**Update on 19th March** Most of the "Season 1" banners have been added to the API (except kills_season_1 for Lifeline, Bangalore and Octane). We still miss a bunch of Octane classic ones. We except the remaining ones to be added tomorrow!
+We also added the Battlepass level (if player has his badge displayed), and the "partyFull" field.
 
 # Unofficial Apex Legends API
 
