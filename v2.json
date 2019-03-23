@@ -1,0 +1,218 @@
+{
+    "global": {
+        "name": "HeyImLIFELINE",
+        "uid": 1000575543540,
+        "platform": "PC",
+        "level": 69,
+        "toNextLevelPercent": 51,
+        "internalUpdateCount": 1314,
+        "battlepass": {
+            "level": 3
+        }
+    },
+    "realtime": {
+        "lobbyState": "open",
+        "isOnline": 0,
+        "isInGame": 0,
+        "canJoin": 0,
+        "partyFull": 0,
+        "selectedLegend": "Lifeline"
+    },
+    "legends": {
+        "selected": {
+            "Lifeline": {
+                "kills": 829,
+                "damage": 216787,
+                "dropped_items_for_squadmates": 225,
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/lifeline.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/lifeline.png"
+                }
+            }
+        },
+        "all": {
+            "Bangalore": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 11
+                    },
+                    "creeping_barrage_damage": {
+                        "name": "Creeping barrage damage",
+                        "value": 180
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/bangalore.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/bangalore.png"
+                }
+            },
+            "Bloodhound": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 75
+                    },
+                    "top_3": {
+                        "name": "Top 3",
+                        "value": 12
+                    },
+                    "beast_of_the_hunt_kills": {
+                        "name": "Beast of the hunt kills",
+                        "value": 18
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/bloodhound.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/bloodhound.png"
+                }
+            },
+            "Lifeline": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 829
+                    },
+                    "damage": {
+                        "name": "Damage",
+                        "value": 216787
+                    },
+                    "dropped_items_for_squadmates": {
+                        "name": "Dropped items for squadmates",
+                        "value": 225
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/lifeline.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/lifeline.png"
+                }
+            },
+            "Caustic": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 4
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/caustic.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/caustic.png"
+                }
+            },
+            "Gibraltar": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 0
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/gibraltar.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/gibraltar.png"
+                }
+            },
+            "Mirage": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 13
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/mirage.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/mirage.png"
+                }
+            },
+            "Pathfinder": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 9
+                    },
+                    "pistol_kills": {
+                        "name": "Pistol kills",
+                        "value": 0
+                    },
+                    "beacons_scanned": {
+                        "name": "Beacons scanned",
+                        "value": 0
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/pathfinder.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/pathfinder.png"
+                }
+            },
+            "Wraith": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 19
+                    },
+                    "kills_season_1": {
+                        "name": "Kills S1",
+                        "value": 0
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/wraith.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/wraith.png"
+                }
+            },
+            "Octane": {
+                "data": {
+                    "kills": {
+                        "name": "Kills",
+                        "value": 0
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/octane.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/octane.png"
+                }
+            }
+        }
+    },
+    "total": {
+        "kills": {
+            "name": "Kills",
+            "value": 960
+        },
+        "creeping_barrage_damage": {
+            "name": "Creeping barrage damage",
+            "value": 180
+        },
+        "top_3": {
+            "name": "Top 3",
+            "value": 12
+        },
+        "beast_of_the_hunt_kills": {
+            "name": "Beast of the hunt kills",
+            "value": 18
+        },
+        "damage": {
+            "name": "Damage",
+            "value": 216787
+        },
+        "dropped_items_for_squadmates": {
+            "name": "Dropped items for squadmates",
+            "value": 225
+        },
+        "pistol_kills": {
+            "name": "Pistol kills",
+            "value": 0
+        },
+        "beacons_scanned": {
+            "name": "Beacons scanned",
+            "value": 0
+        },
+        "kills_season_1": {
+            "name": "Kills S1",
+            "value": 0
+        },
+        "kd": {
+            "value": -1,
+            "name": "KD"
+        }
+    }
+}
