@@ -24,7 +24,15 @@ To auth yourself, you can either put your API Key as a third GET parameter in th
 
 Your request should look like this (if you're using your API Key in the URL):
 
+**v1**
+
     GET http://api.apexlegendsstatus.com/bridge?platform=PC&player=HeyImLifeline&auth=YOURAPIKEY
+    
+**v2**
+    
+    GET http://api.apexlegendsstatus.com/bridge?version=2&platform=PC&player=HeyImLifeline&auth=YOURAPIKEY
+    
+    
 Where PC is the platform and HeyImLifeline the user's name. The API will convert the username to his UID by itself, so don't use his UID as GET parameter :-)
 
 # API Response
