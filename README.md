@@ -2,6 +2,9 @@
 We've released the V2 of our API which is aimed at people using data for their website/discord bot. There are only "structural" changes. V1 is still being maintened. See v2.json for the new structure.
 All Octane trackers have been added to the API. We're only missing the "kills_season_1" ones on Lifeline and Bangalore, all others Season 1 trackers are also added.
 
+# Apex Legends News API
+See news-api.md for info.
+
 # Unofficial Apex Legends API
 
 /!\ This API is still in a development state, and may not be stable at the moment. Please report any issue on our discord. It also pretty long to answer atm (1s to 2s) but this will be reduced soon.
