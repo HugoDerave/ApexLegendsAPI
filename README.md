@@ -5,7 +5,7 @@ All Octane trackers have been added to the API. We're only missing the "kills_se
 # Apex Legends News API
 See news-api.md for info.
 
-# Unofficial Apex Legends API
+# Unofficial Apex Legends Stats API
 
 /!\ This API is still in a development state, and may not be stable at the moment. Please report any issue on our discord. It also pretty long to answer atm (1s to 2s) but this will be reduced soon.
 
