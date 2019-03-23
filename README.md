@@ -1,4 +1,6 @@
-**Update on 20th March** All Octane trackers have been added to the API. We're only missing the "kills_season_1" ones on Lifeline and Bangalore, all others Season 1 trackers are also added.
+**Update on 23rd March** 
+We've released the V2 of our API which is aimed at people using data for their website/discord bot. There are only "structural" changes. V1 is still being maintened. See v2.json for the new structure.
+All Octane trackers have been added to the API. We're only missing the "kills_season_1" ones on Lifeline and Bangalore, all others Season 1 trackers are also added.
 
 # Unofficial Apex Legends API
 
@@ -15,7 +17,7 @@ We require every user to get an API Key for "control" reason and stats. To get a
 
 ## Make a request
 
-To get a player's data, go to http://api.apexlegendsstatus.com/bridge and add the 2 main GET parameters. First one is platform, which can only take "PC", "PS4" or "X1". The second one will be "player", and that's obvisouly the player's name you're looking for.
+To get a player's data, go to http://api.apexlegendsstatus.com/bridge and add the 3 main GET parameters. First one is platform, which can only take "PC", "PS4" or "X1". The second one will be "player", and that's obvisouly the player's name you're looking for. You can also add "version" parameter, which will give you more flexibility. (Currently we have version 1 and 2).
 
 **Authorization**
 To auth yourself, you can either put your API Key as a third GET parameter in the URL which will be "auth", or put your API Key in the "Authorization" header.
@@ -28,7 +30,7 @@ Where PC is the platform and HeyImLifeline the user's name. The API will convert
 # API Response
 If the API returns with a httpcode other than 200, there was an error while processing the data. You should get the error message in response.
 
-If code 200 is returned, you'll find the following JSON content:
+If code 200 is returned, you'll find the following JSON content (THIS IS FOR V1. SEE V2.JSON IF YOU'RE USING V2):
 
     {"global":{"name":"HeyImLIFELINE","uid":1000575543540,"platform":"PC","level":65,"toNextLevelPercent":79,"internalUpdateCount":1189},"realtime":{"lobbyState":"open","isOnline":1,"isInGame":0,"canJoin":1,"selectedLegend":"Mirage"},"legends":{"selected":{"Mirage":{"kills":"13","empty":0}},"all":{"Bangalore":{"kills":"11","creeping_barrage_damage":"180"},"Bloodhound":{"kills":"75","top_3":"12"},"Lifeline":{"kills":"770","damage":"198139","dropped_items_for_squadmates":"202"},"Caustic":{"kills":"4"},"Gibraltar":{"kills":"0"},"Mirage":{"kills":"13"},"Pathfinder":{"kills":"9","pistol_kills":"0","beacons_scanned":"0"},"Wraith":{"kills":"19"}}},"total":{"kills":901,"creeping_barrage_damage":180,"top_3":12,"damage":198139,"dropped_items_for_squadmates":202,"pistol_kills":0,"beacons_scanned":0,"kd":-1}}
 
