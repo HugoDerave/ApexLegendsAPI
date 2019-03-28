@@ -7,7 +7,7 @@ $player = 'HeyImLIFELINE';
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'http://api.apexlegendsstatus.com/bridge?platform='.$platform.'&player='.$player.'&auth='.$apikey);
+curl_setopt($ch, CURLOPT_URL, 'http://api.mozambiquehe.re/bridge?platform='.$platform.'&player='.$player.'&auth='.$apikey);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 $result = curl_exec($ch);
