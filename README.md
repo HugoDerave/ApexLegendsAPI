@@ -1,6 +1,5 @@
 **Update on 23rd March** 
-We've released the V2 of our API which is aimed at people using data for their website/discord bot. There are only "structural" changes. V1 is still being maintened. See v2.json for the new structure.
-All Octane trackers have been added to the API. We're only missing the "kills_season_1" ones on Lifeline and Bangalore, all others Season 1 trackers are also added.
+Endpoints have been updated. If you're using the API, please consider changing them  before 4th April.
 
 # Apex Legends News API
 See news-api.md for info.
@@ -16,11 +15,11 @@ Please also note that due to current Respawn limitations, the API will only retu
 
 # Get an API Key
 
-We require every user to get an API Key for "control" reason and stats. To get an API key, go to http://api.apexlegendsstatus.com/getkey. We'll ask you your mail address and short project description. Please note that providing a wrong mail addresse will most likely get your key suspended.
+We require every user to get an API Key for "control" reason and stats. To get an API key, go to http://api.mozambiquehe.re/getkey. We'll ask you your mail address and short project description. Please note that providing a wrong mail addresse will most likely get your key suspended.
 
 ## Make a request
 
-To get a player's data, go to http://api.apexlegendsstatus.com/bridge and add the 3 main GET parameters. First one is platform, which can only take "PC", "PS4" or "X1". The second one will be "player", and that's obvisouly the player's name you're looking for. You can also add "version" parameter, which will give you more flexibility. (Currently we have version 1 and 2).
+To get a player's data, go to http://api.mozambiquehe.re/bridge and add the 3 main GET parameters. First one is platform, which can only take "PC", "PS4" or "X1". The second one will be "player", and that's obvisouly the player's name you're looking for. You can also add "version" parameter, which will give you more flexibility. (Currently we have version 1 and 2).
 
 **Authorization**
 To auth yourself, you can either put your API Key as a third GET parameter in the URL which will be "auth", or put your API Key in the "Authorization" header.
@@ -29,11 +28,11 @@ Your request should look like this (if you're using your API Key in the URL):
 
 **v1**
 
-    GET http://api.apexlegendsstatus.com/bridge?platform=PC&player=HeyImLifeline&auth=YOURAPIKEY
+    GET http://api.mozambiquehe.re/bridge?platform=PC&player=HeyImLifeline&auth=YOURAPIKEY
     
 **v2**
     
-    GET http://api.apexlegendsstatus.com/bridge?version=2&platform=PC&player=HeyImLifeline&auth=YOURAPIKEY
+    GET http://api.mozambiquehe.re/bridge?version=2&platform=PC&player=HeyImLifeline&auth=YOURAPIKEY
     
     
 Where PC is the platform and HeyImLifeline the user's name. The API will convert the username to his UID by itself, so don't use his UID as GET parameter :-)
