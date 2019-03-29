@@ -15,7 +15,7 @@ Please also note that due to current Respawn limitations, the API will only retu
 
 # Get an API Key
 
-We require every user to get an API Key for "control" reason and stats. To get an API key, go to http://api.mozambiquehe.re/getkey. We'll ask you your mail address and short project description. Please note that providing a wrong mail addresse will most likely get your key suspended.
+We require every user to get an API Key for "control" reason and stats. To get an API key, go to http://api.mozambiquehe.re/getkey. We'll ask you your project url and short project description. Please note that providing a wrong information will most likely get your key suspended.
 
 ## Make a request
 
