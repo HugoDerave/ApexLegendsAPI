@@ -1,3 +1,5 @@
+**SUPPORT US !** Support us on Patreon to keep this API free. https://www.patreon.com/apexlegendsstatus
+
 **Update on 23rd March** 
 Endpoints have been updated. If you're using the API, please consider changing them  before 4th April.
 
