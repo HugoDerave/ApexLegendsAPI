@@ -1,11 +1,5 @@
 **SUPPORT US !** Support us on Patreon to keep this API free. https://www.patreon.com/apexlegendsstatus
 
-**Update on 1st April**
-API will now return proper HTTP code according to result (410: Wrong platform. 405: Unexpected error. 404: Player not found. 403: API key not found)
-
-**Update on 23rd March** 
-Endpoints have been updated. If you're using the API, please consider changing them  before 4th April.
-
 # Apex Legends News API
 See news-api.md for info.
 
