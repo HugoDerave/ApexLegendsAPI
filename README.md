@@ -5,8 +5,6 @@ See news-api.md for info.
 
 # Unofficial Apex Legends Stats API
 
-/!\ This API is still in a development state, and may not be stable at the moment. Please report any issue on our discord. It also pretty long to answer atm (1s to 2s) but this will be reduced soon.
-
 We're providing a free API without any rate limit, that can be used for any project. However, this may change in the near future according to our finance & server load. Sorry for the average english level, i'm french :-)
 Any question? Go to our discord @ [https://discord.gg/TZ4Y9EB](https://discord.gg/TZ4Y9EB "https://discord.gg/TZ4Y9EB").
 
