@@ -32,6 +32,10 @@ Your request should look like this (if you're using your API Key in the URL):
     GET http://api.mozambiquehe.re/bridge?version=2&platform=PC&player=HeyImLifeline&auth=YOURAPIKEY
     
     
+**Multi player search (all players must be on the same platform !, working for both API versions)**
+    
+    GET http://api.mozambiquehe.re/bridge?version=2&platform=PC&player=PlayerA,PlayerB,PlayerC&auth=YOURAPIKEY
+    
 Where PC is the platform and HeyImLifeline the user's name. The API will convert the username to his UID by itself, so don't use his UID as GET parameter :-)
 
 # API Response
