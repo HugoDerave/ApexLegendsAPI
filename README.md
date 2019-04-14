@@ -1,4 +1,4 @@
-**SUPPORT US !** Support us on Patreon to keep this API free. https://www.patreon.com/apexlegendsstatus
+**SUPPORT US !** Support us on Patreon to keep this API free. https://www.patreon.com/apexlegendsstatus - API doc will be moving to mozambiquehe.re in few days.
 
 # Apex Legends News API
 See news-api.md for info.
