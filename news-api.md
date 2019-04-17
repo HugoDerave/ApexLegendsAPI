@@ -1,4 +1,4 @@
-###Apex Legends NEWS API
+### Apex Legends NEWS API
 
 Simple.
 
