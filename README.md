@@ -36,6 +36,11 @@ Your request should look like this (if you're using your API Key in the URL):
     
     GET http://api.mozambiquehe.re/bridge?version=2&platform=PC&player=PlayerA,PlayerB,PlayerC&auth=YOURAPIKEY
     
+**Search by UID (working in both single or multi query, same syntax as above, given example if for multi)**
+    
+    GET http://api.mozambiquehe.re/bridge?platform=PC&uid=UID1,UID2&auth=YOURAPIKEY
+    
+    
 Where PC is the platform and HeyImLifeline the user's name. The API will convert the username to his UID by itself, so don't use his UID as GET parameter :-)
 
 # API Response
