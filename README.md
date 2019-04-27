@@ -1,5 +1,6 @@
 **SUPPORT US !** Support us on Patreon to keep this API free. https://www.patreon.com/apexlegendsstatus - API doc will be moving to mozambiquehe.re in few days.
-Please note: We have a strict rate limit for users which aren't registered in our database. Once you make a first request on them and they are succesfully added in our DB, this rate won't apply.
+
+Please note: We have a strict rate limit for users which aren't registered in our database. Once you make a first request on them and they are succesfully added in our DB, this rate won't apply. From now, we'll apply bans to people trying to overload our API for no reason (using security breach, for example).
 
 # Apex Legends News API
 See news-api.md for info.
