@@ -1,6 +1,6 @@
 **SUPPORT US !** Support us on Patreon to keep this API free. https://www.patreon.com/apexlegendsstatus - API doc will be moving to mozambiquehe.re in few days.
 
-**5th May - Update**
+**5th June - Update**
 + Added "eliteStreak" to the "event" tab on API response (all versions). Refers to the temporary Elite mode.
 + Apex Legends is no longer updating stats while switching characters inside lobby. Stats is only updated on game start/end (should be checked).
 + Added "timeSinceLastRespawnUpdate" to the "global" tab, which will be the time difference since last data update on Respawn side.
