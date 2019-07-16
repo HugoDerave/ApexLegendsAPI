@@ -3,12 +3,18 @@
         "name": "HeyImLIFELINE",
         "uid": 1000575543540,
         "platform": "PC",
-        "level": 69,
-        "toNextLevelPercent": 51,
-        "internalUpdateCount": 1314,
+        "level": 78,
+        "toNextLevelPercent": 21,
+        "internalUpdateCount": 1900,
+        "rank": {
+            "rankScore": 1,
+            "rankName": "Bronze",
+            "rankDiv": 4
+        },
         "battlepass": {
-            "level": 3
-        }
+            "level": "14"
+        },
+        "timeSinceLastRespawnUpdate": -1
     },
     "realtime": {
         "lobbyState": "open",
@@ -21,12 +27,12 @@
     "legends": {
         "selected": {
             "Lifeline": {
-                "kills": 829,
-                "damage": 216787,
-                "dropped_items_for_squadmates": 225,
+                "kills": 958,
+                "damage": 254506,
+                "games_played": 449,
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/lifeline.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/lifeline.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/lifeline.jpg"
                 }
             }
         },
@@ -35,140 +41,245 @@
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 11
+                        "value": 17,
+                        "key": "kills"
                     },
                     "creeping_barrage_damage": {
                         "name": "Creeping barrage damage",
-                        "value": 180
+                        "value": 200,
+                        "key": "creeping_barrage_damage"
+                    },
+                    "wins_season_1": {
+                        "name": "Season 1 Wins",
+                        "value": 0,
+                        "key": "wins_season_1"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/bangalore.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/bangalore.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/bangalore.jpg"
                 }
             },
             "Bloodhound": {
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 75
+                        "value": 83,
+                        "key": "kills"
                     },
                     "top_3": {
                         "name": "Top 3",
-                        "value": 12
+                        "value": 12,
+                        "key": "top_3"
                     },
                     "beast_of_the_hunt_kills": {
                         "name": "Beast of the hunt kills",
-                        "value": 18
+                        "value": 22,
+                        "key": "beast_of_the_hunt_kills"
+                    },
+                    "kills_season_1": {
+                        "name": "Season 1 Kills",
+                        "value": 8,
+                        "key": "kills_season_1"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/bloodhound.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/bloodhound.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/bloodhound.jpg"
                 }
             },
             "Lifeline": {
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 829
+                        "value": 958,
+                        "key": "kills"
                     },
                     "damage": {
                         "name": "Damage",
-                        "value": 216787
+                        "value": 254506,
+                        "key": "damage"
+                    },
+                    "games_played": {
+                        "name": "Games played",
+                        "value": 449,
+                        "key": "games_played"
                     },
                     "dropped_items_for_squadmates": {
-                        "name": "Dropped items for squadmates",
-                        "value": 225
+                        "name": "Care items for mates",
+                        "value": 244,
+                        "key": "dropped_items_for_squadmates"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/lifeline.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/lifeline.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/lifeline.jpg"
                 }
             },
             "Caustic": {
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 4
+                        "value": 4,
+                        "key": "kills"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/caustic.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/caustic.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/caustic.jpg"
                 }
             },
             "Gibraltar": {
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 0
+                        "value": 0,
+                        "key": "kills"
+                    },
+                    "wins_season_1": {
+                        "name": "Season 1 Wins",
+                        "value": 0,
+                        "key": "wins_season_1"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/gibraltar.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/gibraltar.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/gibraltar.jpg"
                 }
             },
             "Mirage": {
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 13
+                        "value": 13,
+                        "key": "kills"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/mirage.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/mirage.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/mirage.jpg"
                 }
             },
             "Pathfinder": {
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 9
+                        "value": 9,
+                        "key": "kills"
                     },
                     "pistol_kills": {
                         "name": "Pistol kills",
-                        "value": 0
+                        "value": 0,
+                        "key": "pistol_kills"
                     },
                     "beacons_scanned": {
                         "name": "Beacons scanned",
-                        "value": 0
+                        "value": 0,
+                        "key": "beacons_scanned"
+                    },
+                    "wins_season_1": {
+                        "name": "Season 1 Wins",
+                        "value": 0,
+                        "key": "wins_season_1"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/pathfinder.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/pathfinder.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/pathfinder.jpg"
                 }
             },
             "Wraith": {
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 19
+                        "value": 24,
+                        "key": "kills"
+                    },
+                    "wins_season_1": {
+                        "name": "Season 1 Wins",
+                        "value": 0,
+                        "key": "wins_season_1"
                     },
                     "kills_season_1": {
-                        "name": "Kills S1",
-                        "value": 0
+                        "name": "Season 1 Kills",
+                        "value": 5,
+                        "key": "kills_season_1"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/wraith.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/wraith.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/wraith.jpg"
                 }
             },
             "Octane": {
                 "data": {
                     "kills": {
                         "name": "Kills",
-                        "value": 0
+                        "value": 3,
+                        "key": "kills"
+                    },
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
                     }
                 },
                 "ImgAssets": {
                     "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/octane.png",
-                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/octane.png"
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/octane.jpg"
+                }
+            },
+            "Wattson": {
+                "data": {
+                    "wins_season_2": {
+                        "name": "Season 2 Wins",
+                        "value": 0,
+                        "key": "wins_season_2"
+                    }
+                },
+                "ImgAssets": {
+                    "icon": "http:\/\/api.apexlegendsstatus.com\/assets\/icons\/wattson.png",
+                    "banner": "http:\/\/api.apexlegendsstatus.com\/assets\/banners\/wattson.jpg"
                 }
             }
         }
@@ -176,11 +287,19 @@
     "total": {
         "kills": {
             "name": "Kills",
-            "value": 960
+            "value": 1111
         },
         "creeping_barrage_damage": {
             "name": "Creeping barrage damage",
-            "value": 180
+            "value": 200
+        },
+        "wins_season_1": {
+            "name": "Season 1 Wins",
+            "value": 0
+        },
+        "wins_season_2": {
+            "name": "Season 2 Wins",
+            "value": 0
         },
         "top_3": {
             "name": "Top 3",
@@ -188,15 +307,23 @@
         },
         "beast_of_the_hunt_kills": {
             "name": "Beast of the hunt kills",
-            "value": 18
+            "value": 22
+        },
+        "kills_season_1": {
+            "name": "Season 1 Kills",
+            "value": 13
         },
         "damage": {
             "name": "Damage",
-            "value": 216787
+            "value": 254506
+        },
+        "games_played": {
+            "name": "Games played",
+            "value": 449
         },
         "dropped_items_for_squadmates": {
-            "name": "Dropped items for squadmates",
-            "value": 225
+            "name": "Care items for mates",
+            "value": 244
         },
         "pistol_kills": {
             "name": "Pistol kills",
@@ -206,13 +333,17 @@
             "name": "Beacons scanned",
             "value": 0
         },
-        "kills_season_1": {
-            "name": "Kills S1",
-            "value": 0
-        },
         "kd": {
             "value": -1,
             "name": "KD"
         }
+    },
+    "mozambiquehere_internal": {
+        "claimedBy": "1",
+        "APIAccessType": null,
+        "ClusterID": "1"
+    },
+    "event": {
+        "eliteStreak": 0
     }
 }
