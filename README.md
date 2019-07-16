@@ -1,7 +1,8 @@
 **SUPPORT US !** Support us on Patreon to keep this API free. https://www.patreon.com/apexlegendsstatus - API doc will be moving to mozambiquehe.re in few days.
 
 **16th July - Update**
-+ Added ranking in the global field.
++ Added player ranking in the global field.
++ Fixed param name returning null
 
 Please note: We have a strict rate limit for users which aren't registered in our database. Once you make a first request on them and they are succesfully added in our DB, this rate won't apply. From now, we'll apply bans to people trying to overload our API for no reason (using security breach, for example).
 With the upcomming Season 2, API may not work for some time / new stats trackers may be missing. They will be added as quick as possible ;)
