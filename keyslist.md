@@ -58,7 +58,7 @@ bombardment_kills<br/>
 
 # MIRAGE
 decoys_spawned<br/>
-encore_execution_escaped<br/><br/>
+encore_execution_escaped<br/>
 bamboozles<br/>
 
 # PATHFINDER
