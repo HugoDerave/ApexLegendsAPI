@@ -70,6 +70,9 @@ bamboozles<br/>
 ziplines_used_by_squad<br/>
 grapple_travel_distance<br/>
 beacons_scanned<br/>
+grandsoiree_damage<br/>
+grandsoiree_kills<br/>
+grandsoiree_wins<br/>
 
 # WRAITH
 voice_warnings_heard<br/>
