@@ -24,8 +24,13 @@ wins_season_1<br/>
 wins_season_2<br/>
 kills_season_2<br/>
 wins_season_3<br/>
-kills_season_3<br/>
+wins_season_4<br/>
 <br/>
+# CRYPTO
+death_totems<br/>
+silenced_targets<br/>
+silenced_targets_killed<br/>
+
 # CRYPTO
 passive_enemies_scanned<br/>
 shield_damage<br/>
