@@ -1,4 +1,5 @@
-**SUPPORT US !** Support us on Patreon to keep this API free. https://www.patreon.com/apexlegendsstatus - API doc will be moving to mozambiquehe.re in few days.
+# Documentation has moved
+
 
 **Now providing a MATCH HISTORY API ! Read more @ https://github.com/HugoDerave/ApexLegendsAPI/blob/master/match_history_API.md**
 
